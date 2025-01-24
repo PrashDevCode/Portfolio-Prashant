@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+
 :root {
     --primary-color1: rgb(174, 0, 255);
     --primary-color2: rgb(255, 0, 179);
@@ -736,7 +737,7 @@ header {
 }
 
 .footer .copyright {
-    color: #bab3bd;
+    color: white;
     margin-top: 20px;
     text-transform: capitalize;
 }
@@ -746,3 +747,28 @@ header {
     color: var(--primary-color1);
     font-weight: 600;
 }
+
+.footer {
+    margin: 0;
+    background-color: #131A22;
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 0.9rem; 
+    padding-bottom: 20px;
+    
+  }
+
+  .footer a {
+    color: #4caf50; 
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+
+  .footer a:hover {
+    text-decoration:underline;
+  }
+
+  .footer i {
+    margin-right: 4px; 
+  }
